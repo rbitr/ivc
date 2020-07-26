@@ -2,7 +2,7 @@
 Ipython function "version control"
 
 ## Motivation
-Jupyter notebooks are great for exploring data but can leave a mess as the data scientist iteratively explores data and generates the output they want. Trying to be disciplined in how code is built in these notebooks can remove the advantages of quick iteration, and from what I see of myself and others using notebooks, discipline quickly gives way to sloppy copy pasting to track different things that have been tried.
+Jupyter notebooks are great for exploring data but can leave a mess as the data scientist iteratively explores data and generates the output they want. Trying to be disciplined can remove the advantages of quick iteration, and from what I see of myself and others using notebooks, discipline quickly gives way to sloppy copy pasting to track different things that have been tried.
 
 This is the mvp of my simple solution, building a decorator that tracks functions being built in a notebook, and the output they display. At any time, the user can examine and compare past versions. The only overhead is that the code has to be wrapped in a function.
 
