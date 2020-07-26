@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="rbitr",
     author_email="andrew@rbitr.co",
-    description="Version control for functions in ipython notebooks",
+    description="Version tracking for functions in ipython notebooks",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/rbitr/ivc",

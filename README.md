@@ -1,5 +1,5 @@
 # ivc
-Ipython function "version control"
+Ipython function tracking for data scientists
 
 ## Motivation
 Jupyter notebooks are great for exploring data but can leave a mess as the data scientist iteratively explores data and generates the output they want. Trying to be disciplined can remove the advantages of quick iteration, and from what I see of myself and others using notebooks, discipline quickly gives way to sloppy copy pasting to track different things that have been tried.
@@ -13,7 +13,7 @@ This is a very simple module, so you may want to just copy `ivc/ivc.py` and incl
 
 Required dependencies: 
 
-```python
+```
 pandas 
 IPython
 matplotlib
